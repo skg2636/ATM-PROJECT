@@ -12,7 +12,7 @@ public class conn {
         try
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            c=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","bank_admin","bank_admin");
+            c=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","user_name","password");
             s=c.createStatement();
             
   
